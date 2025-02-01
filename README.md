@@ -1,0 +1,1 @@
+This repository demonstrates a common Dockerfile error where the application file is not copied into the image, leading to a runtime failure. The `CMD` instruction attempts to execute a script that does not exist within the image's filesystem. The solution involves correctly copying the necessary application file into the image before attempting to run it.
